@@ -3,7 +3,7 @@ body {
 	font-family: Arial, sans-serif;
  }
  
-.box-account {
+.box {
 	background: #FFFFFF;
 	border-radius: 5px;
 	box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
@@ -15,7 +15,7 @@ body {
 	width: 311px;
  }
  
-.box-account-rainbow {
+.box-rainbow {
 	background: linear-gradient(to right, rgba(198,152,225,1) 0%, rgba(198,152,225,1) 14%, rgba(246,173,212,1) 14%, rgba(246,173,212,1) 24%, rgba(246,173,212,1) 31%, rgba(244,118,101,1) 31%, rgba(244,118,101,1) 50%, rgba(255,210,96,1) 50%, rgba(255,210,96,1) 66%, rgba(247,255,197,1) 66%, rgba(247,255,197,1) 83%, rgba(193,227,114,1) 83%, rgba(194,227,114,1) 100%);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -24,7 +24,7 @@ body {
 	width: 100%;
  }
  
-.box-account-rainbow:after {
+.box-rainbow:after {
 	background: #fff;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -34,20 +34,20 @@ body {
 	width: 100%;
  }
  
-.box-account-title {
+.box-title {
 	color: #3D4246;
 	font-size: 16px;
 	margin: 30px 0;
 	text-align: center;
  }
  
-.box-account-form {
+.box-form {
 	height: 170px;
 	margin: 0 auto;
 	width: 80%;
  }
  
-.box-account-input {
+.box-input {
 	background: #F9F9F9;
 	border-radius: 5px;
 	border: 1px solid #B0B0B0;
@@ -61,12 +61,12 @@ body {
 	margin-bottom: 20px;
 }
  
-.box-account-input:focus {
+.box-input:focus {
 	background: #fff;
 	outline: none;
  }
  
-.box-account-remember {
+.box-remember {
 	color: #555555;
 	float: left;
 	font-size: 11px;
@@ -74,7 +74,7 @@ body {
 	margin: 6px 0px;
  }
 
-.box-account-button {
+.box-button {
 	background: linear-gradient(to bottom, #7bb02a 0%,#5c8f2a 100%);
 	border-radius: 5px;
 	border: 1px solid #416D18;
@@ -86,15 +86,15 @@ body {
 	text-shadow: 0px 1px 1px #000;
  }
  
-.box-account-button:hover {
+.box-button:hover {
 	background: linear-gradient(to bottom, #5c8f2a 0%, #7bb02a 100%);
 }
  
-.box-account-button:focus {
+.box-button:focus {
 	outline:none;
 }
 
-.box-account-forgot {
+.box-forgot {
 	background: #F7F7F7;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -102,7 +102,7 @@ body {
 	box-shadow: inset 0px -12px 5px -13px rgba(140,140,140,1);
  }
  
-.box-account-forgot-link {
+.box-forgot-link {
 	color: #2E2F30;
 	display: block;
 	font-size: 11px;
@@ -112,7 +112,7 @@ body {
 	text-decoration: none;
  }
  
-.box-account-forgot-link span.close {
+.box-forgot-link span.close {
 	color: #C0C0C0;
 	display: block;
 	font-size: 16px;
@@ -121,7 +121,7 @@ body {
 	right: 15px;
  }
  
-.box-account-forgot-form {
+.box-forgot-form {
 	display: none;
 	margin: 0 auto;
 	padding: 5px 0px 20px 0px;
@@ -141,7 +141,7 @@ body {
 	background: linear-gradient(to bottom, #F0F0F0 0%,#FCFCFC 100%);
 }
  
-.box-account-forgot-success {
+.box-forgot-success {
 	color: #363636;
 	display: none;
 	font-size: 13px;
@@ -151,7 +151,7 @@ body {
 	text-align: center;
  }
  
-.box-account-forgot-success span {
+.box-forgot-success span {
 	border-radius: 100px;
 	border: 2px solid #4BA00A;
 	color: #4BA00A;
