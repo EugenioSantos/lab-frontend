@@ -20,4 +20,8 @@ $(document).ready(function(){
 		return false;
 	});
 
+	$('.box-account-button').click(function(){
+		return false;
+	});
+
 });

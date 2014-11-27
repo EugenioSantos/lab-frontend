@@ -90,6 +90,10 @@ body {
 	background: linear-gradient(to bottom, #5c8f2a 0%, #7bb02a 100%);
 }
  
+.box-account-button:focus {
+	outline:none;
+}
+
 .box-account-forgot {
 	background: #F7F7F7;
 	border-bottom-left-radius: 5px;
