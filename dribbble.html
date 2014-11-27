@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Formulário Dribbble</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Formulário Dribble" />
+		<link rel="stylesheet" href="dribbble.css" type="text/css" />
+	</head>
+	<body>
+
+		<div class="box-account">
+
+			<div class="box-account-rainbow"></div>
+
+			<h1 class="box-account-title">Sign In to your Account</h1>
+			
+			<div class="box-account-form">
+
+				<form action="#login" method="POST">
+					<input type="text" name="username" class="box-account-input" placeholder="Username" />
+					<input type="text" name="password" class="box-account-input box-input-last" placeholder="Password" />
+
+					<label for="rememberme" class="box-account-remember">
+						<input type="checkbox" id="rememberme" name="rememberme"> Remember me?
+					</label>
+
+					<button type="submit" class="box-account-button">Sign In</button>
+				</form>
+
+			</div>
+			
+			<div class="box-account-forgot">
+
+				<a href="" class="box-account-forgot-link">
+					<span class="label">Forgot Password?</span> 
+					<span class="close">x</span>
+				</a>
+
+				<div class="box-account-forgot-form">
+					<form action="#recovery" method="POST">
+						<input type="text" name="username" class="box-account-input" placeholder="Enter email address" />
+						<button type="submit" class="box-account-button box-bottom-reset">Reset your Password</button>
+					</form>
+				</div>
+
+				<div class="box-account-forgot-success">
+					<span>&#x2714;</span>
+					<p>Great. We have sent you an email.</p>
+				</div>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="dribbble.js"></script>
+	</body>
+</html>

@@ -1,0 +1,162 @@
+body {
+	background: #EFEFEF;
+	font-family: Arial, sans-serif;
+ }
+ 
+.box-account {
+	background: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	left: 50%;
+	margin: -143px 0 0 -155px;
+	min-height: 290px;
+	position: absolute;
+	top: 50%;
+	width: 311px;
+ }
+ 
+.box-account-rainbow {
+	background: linear-gradient(to right, rgba(198,152,225,1) 0%, rgba(198,152,225,1) 14%, rgba(246,173,212,1) 14%, rgba(246,173,212,1) 24%, rgba(246,173,212,1) 31%, rgba(244,118,101,1) 31%, rgba(244,118,101,1) 50%, rgba(255,210,96,1) 50%, rgba(255,210,96,1) 66%, rgba(247,255,197,1) 66%, rgba(247,255,197,1) 83%, rgba(193,227,114,1) 83%, rgba(194,227,114,1) 100%);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 3px;
+	padding-top: 3px;
+	width: 100%;
+ }
+ 
+.box-account-rainbow:after {
+	background: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #fff;
+	content: ".";
+	display: block;
+	width: 100%;
+ }
+ 
+.box-account-title {
+	color: #3D4246;
+	font-size: 16px;
+	margin: 30px 0;
+	text-align: center;
+ }
+ 
+.box-account-form {
+	height: 170px;
+	margin: 0 auto;
+	width: 80%;
+ }
+ 
+.box-account-input {
+	background: #F9F9F9;
+	border-radius: 5px;
+	border: 1px solid #B0B0B0;
+	box-shadow: inset 0px 1px 1px 0px rgba(50, 50, 50, 0.2);
+	margin: 5px 0;
+	padding: 10px 10px;
+	width: 90%;
+ }
+ 
+.box-input-last {
+	margin-bottom: 20px;
+}
+ 
+.box-account-input:focus {
+	background: #fff;
+	outline: none;
+ }
+ 
+.box-account-remember {
+	color: #555555;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 6px 0px;
+ }
+
+.box-account-button {
+	background: linear-gradient(to bottom, #7bb02a 0%,#5c8f2a 100%);
+	border-radius: 5px;
+	border: 1px solid #416D18;
+	box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.35);
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	padding: 10px 30px;
+	text-shadow: 0px 1px 1px #000;
+ }
+ 
+.box-account-button:hover {
+	background: linear-gradient(to bottom, #5c8f2a 0%, #7bb02a 100%);
+}
+ 
+.box-account-forgot {
+	background: #F7F7F7;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: 1px solid #C6C6C6;
+	box-shadow: inset 0px -12px 5px -13px rgba(140,140,140,1);
+ }
+ 
+.box-account-forgot-link {
+	color: #2E2F30;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 13px 0;
+	text-align: center;
+	text-decoration: none;
+ }
+ 
+.box-account-forgot-link span.close {
+	color: #C0C0C0;
+	display: block;
+	font-size: 16px;
+	position: absolute;
+	margin-top: -15px;
+	right: 15px;
+ }
+ 
+.box-account-forgot-form {
+	display: none;
+	margin: 0 auto;
+	padding: 5px 0px 20px 0px;
+	width: 80%;
+ }
+ 
+.box-bottom-reset {
+	background: linear-gradient(to bottom, #FCFCFC 0%,#F0F0F0 100%);
+	border: 1px solid #DEDEDE;
+	color: #363636;
+	float: none;
+	text-shadow: none;
+	width: 99%;
+ }
+ 
+.box-bottom-reset:hover {
+	background: linear-gradient(to bottom, #F0F0F0 0%,#FCFCFC 100%);
+}
+ 
+.box-account-forgot-success {
+	color: #363636;
+	display: none;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px 0px 20px 0px;
+	margin-top: 30px;
+	text-align: center;
+ }
+ 
+.box-account-forgot-success span {
+	border-radius: 100px;
+	border: 2px solid #4BA00A;
+	color: #4BA00A;
+	display: block;
+	font-size: 30px;
+	height: 29px;
+	line-height: 20px;
+	margin: auto;
+	text-align: right;
+	width: 29px;
+ }
+ 
